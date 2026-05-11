@@ -8,6 +8,16 @@
 
 ---
 
+## Click Here! / See Interactable Notebooks
+
+Part 1:
+https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt1.ipynb
+
+Part 2:
+https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.ipynb
+
+---
+
 ## What This Is
 
 A MODZCTA-level analysis of COVID death rates, neighborhood
