@@ -1,44 +1,44 @@
-# IS 362 – Jupyter Notebook Assignments
+# IS 362: Jupyter Notebook Assignments
+### CUNY | Spring 2026 | Daniel Foulen
 
-This repository contains Jupyter Notebook assignments for my IS 362 course.
-All work is completed in Python using Jupyter Lab.
+Updated as of May 13th, 2026
+---
 
-## Environment Setup (Windows)
+## Final Project
 
-### Install WSL (Windows Subsystem for Linux)
+**Neighborhood Class, Transit Access, and COVID-19 Outcomes in New York City**
 
-Open PowerShell as Administrator and run:
+See [`Final Project/`](./Final%20Project/) for notebooks, data, and full documentation.
 
-wsl --install
+Interactive notebooks via nbviewer:
+- [Part 1 — Data Pipeline](https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt1.ipynb)
+- [Part 2 — Analysis & Map](https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.ipynb)
 
-Restart your computer when prompted.
+---
 
-### Install Python, pip, and venv inside WSL
+## Setup
 
-Open your WSL terminal and run:
+Python 3.14. Virtual environment named `IS362` at the repo root.
 
-sudo apt update
-sudo apt install python3 python3-pip python3-venv -y
+```bash
+python3 -m venv IS362
+source IS362/bin/activate
+pip install geopandas pandas numpy matplotlib seaborn folium \
+            libpysal esda adjustText requests python-dotenv rise
+```
 
-### Create and activate a virtual environment
+Open `IS362.code-workspace` in VSCode and select the **IS362** kernel in any notebook. No manual kernel registration needed.
 
-From the project directory:
+The Final Project requires a Census API key in a `.env` file at the repo root:
 
-python3 -m venv venv
-source venv/bin/activate
+```
+CENSUS_API_KEY=your_key_here
+```
 
-### Install Jupyter Lab
+Keys are free at https://api.census.gov/data/key_signup.html. The `.env` is gitignored.
 
-With the virtual environment activated:
+---
 
-pip install jupyterlab
+## Weekly Assignments
 
-## Starting Jupyter Lab
-
-From the project directory, activate the virtual environment and run:
-
-source venv/bin/activate
-jupyter lab
-
-Jupyter Lab will print a local URL in the terminal.
-Open that link in your browser to access the notebooks.
+Weeks 1–14 (not all weeks had assignments). Each folder is self-contained.
