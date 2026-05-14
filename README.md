@@ -12,7 +12,7 @@ See [`Final Project/`](./Final%20Project/) for notebooks, data, and full documen
 
 Interactive notebooks via nbviewer:
 - [Part 1 — Data Pipeline](https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt1.ipynb)
-- [Part 2 — Analysis & Map](https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.ipynb)
+- [Part 2 — Analysis & Map](https://nbviewer.org/github/CrowEch3lon/IS362/blob/55813ac/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.ipynb)
 
 ---
 
