@@ -10,9 +10,9 @@ Updated as of May 13th, 2026
 
 See [`Final Project/`](./Final%20Project/) for notebooks, data, and full documentation.
 
-Interactive notebooks via nbviewer:
-- [Part 1 — Data Pipeline](https://nbviewer.org/github/CrowEch3lon/IS362/blob/main/Final%20Project/DanielFoulen_IS362_FinalProject_Pt1.ipynb)
-- [Part 2 — Analysis & Map](https://nbviewer.org/github/CrowEch3lon/IS362/blob/55813ac/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.ipynb)
+Interactive notebooks via GitHub Pages:
+- [Part 1 — Data Pipeline](https://crowech3lon.github.io/IS362/Final%20Project/DanielFoulen_IS362_FinalProject_Pt1.html)
+- [Part 2 — Analysis & Map](https://crowech3lon.github.io/IS362/Final%20Project/DanielFoulen_IS362_FinalProject_Pt2.html)
 
 ---
 
@@ -38,7 +38,3 @@ CENSUS_API_KEY=your_key_here
 Keys are free at https://api.census.gov/data/key_signup.html. The `.env` is gitignored.
 
 ---
-
-## Weekly Assignments
-
-Weeks 1–14 (not all weeks had assignments). Each folder is self-contained.
